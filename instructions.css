@@ -1,0 +1,97 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	font-family:"montserrat",sans-serif;
+	box-sizing:border-box;
+	}
+.help-section{
+	background:url(img/career.jpg);
+	background-size:cover;
+	height:760px;
+	padding:60px 0;
+	}
+.inner-width{
+	width:100%;
+	max-width:1200px;
+	margin:auto;
+	padding:0 20px;
+	overflow:hidden;
+	}
+.section-titile{
+	text-align:center;
+	color:#000;
+	text-transform:uppercase;
+	font-size:45px;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:12px;
+	background:#FF000000;
+
+	}
+.border{
+	width:160px;
+	height:2px;
+	background:#82ccdd;
+	margin:40px auto;
+	}
+.help-container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	}
+.help-box{
+	max-width:33.33%;
+	padding:10px;
+	text-align:center;
+	color:#C0F;
+	cursor:pointer;
+	position:relative;
+	background:#CDCDCD;
+	border-radius:4px;
+	margin:20px;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:12px;
+	}
+.help-icon{
+	display:inline-block;
+	width:70px;
+	height:70px;
+	boder:3px solid #82ccdd;
+	color:#82ccdd;
+	transform:rotate(45deg);
+	margin-bottom:30px;
+	margin-top:16px;
+	transition:0.3s linear;
+	}
+.help-box:hover .help-icon{
+	background:#82ccdd;
+	color:#ddd;
+	}
+.service-title{
+	font-size:18px;
+	text-transform:uppercase;
+	margin-bottom:10px;
+	}
+.service-desc{
+	font-size:14px;
+	width:180px;
+	}
+@media screen and(max-width:960px){
+.help-box{
+	max-width:45%;
+	}
+	}
+	@media screen and(max-width:768px){
+.help-box{
+	max-width:50%;
+	}
+	}
+	@media screen and(max-width:480px){
+.help-box{
+	max-width:100%;
+	}
+	}
+
+
